@@ -5,8 +5,8 @@ class Navbar extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <div className="container">
-          <a className="navbar-brand" href="#">
-            Navbar
+          <a className="navbar-brand" href="#home">
+            Nicolas Grupe
           </a>
           <button
             className="navbar-toggler"
@@ -50,17 +50,17 @@ class Navbar extends React.Component {
             {}
             <ul className="navbar-nav nav-flex-icons">
               <li className="nav-item">
-                <a className="nav-link">
+                <a className="nav-link" href="https://www.facebook.com">
                   <i className="fab fa-facebook-f light-green-text-2" />
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link">
+                <a className="nav-link" href="https://www.facebook.com">
                   <i className="fab fa-twitter light-green-text-2" />
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link">
+                <a className="nav-link" href="https://www.facebook.com">
                   <i className="fab fa-instagram light-green-text-2" />
                 </a>
               </li>

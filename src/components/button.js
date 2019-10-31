@@ -5,7 +5,7 @@ class Button extends React.Component {
     return (
       <div className="text-center text-md-left mt-4">
         {" "}
-        <a className="btn btn-primary">Send</a>{" "}
+        <a className="btn btn-primary" href="#home">Send</a>{" "}
       </div>
     );
   }

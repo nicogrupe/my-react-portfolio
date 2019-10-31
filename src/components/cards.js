@@ -15,6 +15,7 @@ class Cards extends React.Component {
               <img
                 src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg"
                 className="img-fluid z-depth-1"
+                alt=""
               />
             </a>
           </figure>
@@ -26,6 +27,7 @@ class Cards extends React.Component {
               <img
                 src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(66).jpg"
                 className="img-fluid z-depth-1"
+                alt=""
               />
             </a>
           </figure>
@@ -37,6 +39,7 @@ class Cards extends React.Component {
               <img
                 src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(65).jpg"
                 className="img-fluid z-depth-1"
+                alt=""
               />
             </a>
           </figure>
@@ -48,6 +51,7 @@ class Cards extends React.Component {
               <img
                 src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
                 className="img-fluid z-depth-1"
+                alt=""
               />
             </a>
           </figure>
@@ -59,6 +63,7 @@ class Cards extends React.Component {
               <img
                 src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(68).jpg"
                 className="img-fluid z-depth-1"
+                alt=""
               />
             </a>
           </figure>
@@ -70,6 +75,7 @@ class Cards extends React.Component {
               <img
                 src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(64).jpg"
                 className="img-fluid z-depth-1"
+                alt=""
               />
             </a>
           </figure>
@@ -81,6 +87,7 @@ class Cards extends React.Component {
               <img
                 src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(69).jpg"
                 className="img-fluid z-depth-1"
+                alt=""
               />
             </a>
           </figure>
@@ -92,6 +99,7 @@ class Cards extends React.Component {
               <img
                 src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(59).jpg"
                 className="img-fluid z-depth-1"
+                alt=""
               />
             </a>
           </figure>
@@ -103,6 +111,7 @@ class Cards extends React.Component {
               <img
                 src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(70).jpg"
                 className="img-fluid z-depth-1"
+                alt=""
               />
             </a>
           </figure>

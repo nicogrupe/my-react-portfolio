@@ -46,22 +46,27 @@ class Navbar extends React.Component {
                   Contact
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#resume" data-offset={100}>
+                  Resume
+                </a>
+              </li>
             </ul>
             {}
             <ul className="navbar-nav nav-flex-icons">
               <li className="nav-item">
-                <a className="nav-link" href="https://www.facebook.com">
+                <a className="nav-link" href="https://www.facebook.com/nico.grupe">
                   <i className="fab fa-facebook-f light-green-text-2" />
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://www.facebook.com">
-                  <i className="fab fa-twitter light-green-text-2" />
+                <a className="nav-link" href="https://www.linkedin.com/in/nicolas-grupe/">
+                  <i className="fab fa-linkedin light-green-text-2" />
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://www.facebook.com">
-                  <i className="fab fa-instagram light-green-text-2" />
+                <a className="nav-link" href="https://github.com/nicogrupe/">
+                  <i className="fab fa-github light-green-text-2" />
                 </a>
               </li>
             </ul>

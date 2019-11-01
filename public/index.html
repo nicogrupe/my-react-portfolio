@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<title>Material Design Bootstrap</title>
+	<title>Nico's Portfolio</title>
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
@@ -18,7 +18,10 @@
 	<link href="../css/mdb.min.css" rel="stylesheet">
 
 	<!-- Your custom styles (optional) -->
-	<link href="../css/style.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  
+	<!-- Animate.css -->
+	<link href="../css/animate.css" rel="stylesheet">
 
     <style>
         html,
@@ -59,22 +62,27 @@
 
     <script>
         // initialize scrollspy
-        $('body').scrollspy({
-            target: '.dotted-scrollspy'
-        });
+        // $('body').scrollspy({
+        //     target: '.dotted-scrollspy'
+        // });
 
         // initialize lightbox
-        $(function () {
-            $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
-        });
+        // $(function () {
+        //     $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
+        // });
 
-        $('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
+        // $('.navbar-collapse a').click(function(){
+        //     $(".navbar-collapse").collapse('hide');
+        // });
 
         /* WOW.js init */
-        new WOW().init();
+        // new WOW().init();
 
+     </script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
     </script>
 
 </body>

@@ -8,12 +8,12 @@ class Root extends React.Component {
     return (
       <div>
         
-        <Header></Header>
-        
-        <Main></Main>
-        
-        <Scrollspy></Scrollspy>
-        
+      <Header></Header>
+      
+      <Main></Main>
+      
+      <Scrollspy></Scrollspy>
+      
       </div>
     );
   }

@@ -4,16 +4,16 @@ class Cards extends React.Component {
   render() {
     return (
       <div className="col-md-12 mb-5">
-        {}
+        
         <div id="mdb-lightbox-ui" />
         <div className="mdb-lightbox">
           <figure className="col-md-4">
             <a
-              href="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg"
+              href="https://github.com/nicogrupe"
               data-size="1600x1067"
             >
               <img
-                src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg"
+                src="./img/BalloonFE.PNG"
                 className="img-fluid z-depth-1"
                 alt=""
               />
@@ -21,11 +21,11 @@ class Cards extends React.Component {
           </figure>
           <figure className="col-md-4">
             <a
-              href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(66).jpg"
+              href="http://invertirsemilla.com"
               data-size="1600x1067"
             >
               <img
-                src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(66).jpg"
+                src="./img/invertirsemilla.PNG"
                 className="img-fluid z-depth-1"
                 alt=""
               />
@@ -33,17 +33,17 @@ class Cards extends React.Component {
           </figure>
           <figure className="col-md-4">
             <a
-              href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(65).jpg"
+              href="https://github.com/nicogrupe/my-react-portfolio"
               data-size="1600x1067"
             >
               <img
-                src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(65).jpg"
+                src="./img/portfolio.PNG"
                 className="img-fluid z-depth-1"
                 alt=""
               />
             </a>
           </figure>
-          <figure className="col-md-4">
+          {/* <figure className="col-md-4">
             <a
               href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(67).jpg"
               data-size="1600x1067"
@@ -114,9 +114,9 @@ class Cards extends React.Component {
                 alt=""
               />
             </a>
-          </figure>
+          </figure> */}
         </div>
-        {}
+        
       </div>
     );
   }

@@ -6,9 +6,9 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        {}
+        
         <Navbar></Navbar>
-        {}
+        
         <IntroSection></IntroSection>
       </header>
     );

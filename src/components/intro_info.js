@@ -5,13 +5,13 @@ class IntroInfo extends React.Component {
     return (
       <div className="white-text text-center pt-5">
         <h1 className="display-2 mb-4 dark-grey-text wow fadeIn">
-          I am <strong>John Doe</strong>
+          I am <strong>Nicolas Grupe</strong>
         </h1>
         <h5
           className="text-uppercase font-weight-bold wow fadeIn"
           data-wow-delay="0.4s"
         >
-          <mark>Web developer & graphic designer</mark>
+          <mark>Full stack developer</mark>
         </h5>
         <a
           href="#about"

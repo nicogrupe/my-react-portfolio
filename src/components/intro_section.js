@@ -9,7 +9,7 @@ class IntroSection extends React.Component {
         className="view jarallax"
         style={{
           backgroundImage:
-            'url("https://mdbootstrap.com/img/Photos/Others/forest1.jpg")',
+            'url("https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg")',
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center center"

@@ -6,16 +6,16 @@ class Skills extends React.Component {
   render() {
     return (
       <section id="skills">
-        {}
+        
         <div className="row py-5">
-          {}
+          
           <MyExperience></MyExperience>
-          {}
-          {}
+          
+          
           <DevelopmentSkills></DevelopmentSkills>
-          {}
+          
         </div>
-        {}
+        
       </section>
     );
   }

@@ -1,4 +1,5 @@
 import React from "react";
+// import pdf from '../public/pdf/CurriculumVitaeNG.pdf'
 
 class Navbar extends React.Component {
   render() {
@@ -6,7 +7,7 @@ class Navbar extends React.Component {
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <div className="container">
           <a className="navbar-brand" href="#home">
-            Nicolas Grupe
+            Nicolás Grupe
           </a>
           <button
             className="navbar-toggler"
@@ -47,7 +48,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#resume" data-offset={100}>
+                <a className="nav-link" href={process.env.PUBLIC_URL+'pdf/CurriculumVitaeNG.pdf'} rel="noopener noreferrer" target="_blank" data-offset={100}>
                   Resume
                 </a>
               </li>

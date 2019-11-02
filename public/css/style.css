@@ -1,1 +1,22 @@
 /* Your custom styles */
+
+#img-profile{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 20px;
+    vertical-align: middle;
+    border: 0;
+}
+#img-profile-div{
+    margin-top: 3%;
+}
+#to-about{
+    margin-top: 0%;
+}
+
+@media (max-width: 498px) {
+    #img-profile {
+      display: none;
+    }
+  }

@@ -56,17 +56,17 @@ class Navbar extends React.Component {
             {}
             <ul className="navbar-nav nav-flex-icons">
               <li className="nav-item">
-                <a className="nav-link" href="https://www.facebook.com/nico.grupe">
+                <a className="nav-link" href="https://www.facebook.com/nico.grupe" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-facebook-f light-green-text-2" />
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://www.linkedin.com/in/nicolas-grupe/">
+                <a className="nav-link" href="https://www.linkedin.com/in/nicolas-grupe/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin light-green-text-2" />
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://github.com/nicogrupe/">
+                <a className="nav-link" href="https://github.com/nicogrupe/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github light-green-text-2" />
                 </a>
               </li>

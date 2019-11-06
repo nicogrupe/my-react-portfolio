@@ -4,7 +4,9 @@ import React from "react";
 class Navbar extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar top-nav-collapse"
+        // {window.scrollY>100?'navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar top-nav-collapse':'navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar'}
+      >
         <div className="container">
           <a className="navbar-brand" href="#home">
             Nicolás Grupe
@@ -48,7 +50,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href={'mailto:nico.grupe@gmail.com'} subject={'Requesting CV from Portfolio'} rel="noopener noreferrer" target="_blank" data-offset={100}>
+                <a className="nav-link" href={'mailto:nico.grupe@gmail.com?Requesting CV from your Web Portfolio'} rel="noopener noreferrer" target="_blank" data-offset={100}>
                   Request Resume (CV)
                 </a>
               </li>

@@ -38,7 +38,7 @@ class About extends React.Component {
           </div>
           <div className="col-md-4 mb-5">
             
-            <div className="card card-body yellow hoverable">
+            <div className="card card-body lblue hoverable">
               <i className="fas fa-code fa-3x mb-4" aria-hidden="true" />
               <h5 className="font-weight-bold text-uppercase mb-4">Developer</h5>
               {/* <p className="dark-grey-text">

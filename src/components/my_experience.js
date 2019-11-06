@@ -12,7 +12,7 @@ class MyExperience extends React.Component {
           My <strong>experience</strong>
         </h2>
         
-        <blockquote className="blockquote bq-warning mb-4">
+        <blockquote className="blockquote bq-primary mb-4">
           <div className="row">
             {" "}
             <i
@@ -29,7 +29,7 @@ class MyExperience extends React.Component {
           </p>
         </blockquote>
 
-        <blockquote className="blockquote bq-warning mb-4">
+        <blockquote className="blockquote bq-primary mb-4">
           <div className="row">
             {" "}
             <i
@@ -46,7 +46,7 @@ class MyExperience extends React.Component {
           </p>
         </blockquote>
 
-        <blockquote className="blockquote bq-warning mb-4">
+        <blockquote className="blockquote bq-primary mb-4">
           <div className="row">
             {" "}
             <i

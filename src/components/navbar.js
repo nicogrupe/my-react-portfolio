@@ -48,18 +48,13 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href={process.env.PUBLIC_URL+'pdf/CurriculumVitaeNG.pdf'} rel="noopener noreferrer" target="_blank" data-offset={100}>
-                  Resume
+                <a className="nav-link" href={'mailto:nico.grupe@gmail.com'} subject={'Requesting CV from Portfolio'} rel="noopener noreferrer" target="_blank" data-offset={100}>
+                  Request Resume (CV)
                 </a>
               </li>
             </ul>
             {}
             <ul className="navbar-nav nav-flex-icons">
-              <li className="nav-item">
-                <a className="nav-link" href="https://www.facebook.com/nico.grupe" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-facebook-f light-green-text-2" />
-                </a>
-              </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/nicolas-grupe/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin light-green-text-2" />

@@ -22,15 +22,11 @@ class Contact extends React.Component {
           </p>
           <div className="row wow fadeIn" data-wow-delay="0.4s">
             
-            <div className="col-md-4 text-center">
+            <div className="col-md-6 text-center">
               <i className="fas fa-map-marker-alt fa-2x" />
               <p>Córdoba, Córdoba, ARG</p>
             </div>
-            <div className="col-md-4 text-center">
-              <i className="fas fa-phone fa-2x" />
-              <p>+ 54 9 351 676 4741</p>
-            </div>
-            <div className="col-md-4 text-center">
+            <div className="col-md-6 text-center">
               <i className="fas fa-envelope fa-2x" />
               <p>nico.grupe@gmail.com</p>
             </div>

@@ -2170,41 +2170,6 @@ button.bg-light:focus, button.bg-light:hover {
   -webkit-box-orient: horizontal;
 }
 
-@font-face {
-  font-family: Roboto;
-  src: local(Roboto Thin), url(../font/roboto/Roboto-Thin.eot);
-  src: url(../font/roboto/Roboto-Thin.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Thin.woff2) format("woff2"), url(../font/roboto/Roboto-Thin.woff) format("woff"), url(../font/roboto/Roboto-Thin.ttf) format("truetype");
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: local(Roboto Light), url(../font/roboto/Roboto-Light.eot);
-  src: url(../font/roboto/Roboto-Light.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Light.woff2) format("woff2"), url(../font/roboto/Roboto-Light.woff) format("woff"), url(../font/roboto/Roboto-Light.ttf) format("truetype");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: local(Roboto Regular), url(../font/roboto/Roboto-Regular.eot);
-  src: url(../font/roboto/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Regular.woff2) format("woff2"), url(../font/roboto/Roboto-Regular.woff) format("woff"), url(../font/roboto/Roboto-Regular.ttf) format("truetype");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url(../font/roboto/Roboto-Medium.eot);
-  src: url(../font/roboto/Roboto-Medium.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Medium.woff2) format("woff2"), url(../font/roboto/Roboto-Medium.woff) format("woff"), url(../font/roboto/Roboto-Medium.ttf) format("truetype");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url(../font/roboto/Roboto-Bold.eot);
-  src: url(../font/roboto/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Bold.woff2) format("woff2"), url(../font/roboto/Roboto-Bold.woff) format("woff"), url(../font/roboto/Roboto-Bold.ttf) format("truetype");
-  font-weight: 700;
-}
-
 body {
   font-family: Roboto, sans-serif;
 }
@@ -2525,42 +2490,6 @@ a.text-light:focus, a.text-light:hover {
 .zoom:hover img, .zoom:hover video {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
-
-.pattern-1 {
-  background: url(../img/overlays/01.png) fixed;
-}
-
-.pattern-2 {
-  background: url(../img/overlays/02.png) fixed;
-}
-
-.pattern-3 {
-  background: url(../img/overlays/03.png) fixed;
-}
-
-.pattern-4 {
-  background: url(../img/overlays/04.png) fixed;
-}
-
-.pattern-5 {
-  background: url(../img/overlays/05.png) fixed;
-}
-
-.pattern-6 {
-  background: url(../img/overlays/06.png) fixed;
-}
-
-.pattern-7 {
-  background: url(../img/overlays/07.png) fixed;
-}
-
-.pattern-8 {
-  background: url(../img/overlays/08.png) fixed;
-}
-
-.pattern-9 {
-  background: url(../img/overlays/09.png) fixed;
 }
 
 /*!
@@ -7839,11 +7768,6 @@ body.scrollable {
 .carousel .carousel-control-prev-icon {
   width: 20px;
   height: 20px;
-  background-image: url(../img/svg/arrow_left.svg);
-}
-
-.carousel .carousel-control-next-icon {
-  background-image: url(../img/svg/arrow_right.svg);
 }
 
 .carousel .carousel-indicators li {
@@ -13214,17 +13138,7 @@ a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):hover
   opacity: 1;
 }
 
-.pswp__button, .pswp__button--arrow--left:before, .pswp__button--arrow--right:before {
-  background: url(../img/lightbox/default-skin.png) no-repeat;
-  background-size: 264px 88px;
-  width: 44px;
-  height: 44px;
-}
-
 @media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
-  .pswp--svg .pswp__button, .pswp--svg .pswp__button--arrow--left:before, .pswp--svg .pswp__button--arrow--right:before {
-    background-image: url(../img/lightbox/default-skin.svg);
-  }
   .pswp--svg .pswp__button--arrow--left, .pswp--svg .pswp__button--arrow--right {
     background: 0 0;
   }
@@ -13496,10 +13410,6 @@ a.pswp__share--download:hover {
   width: 20px;
   height: 20px;
   margin: 12px;
-}
-
-.pswp__preloader--active .pswp__preloader__icn {
-  background: url(../img/lightbox/preloader.gif) no-repeat;
 }
 
 .pswp--css_animation .pswp__preloader--active .pswp__preloader__icn {

@@ -16,12 +16,12 @@ class DevelopmentSkills extends React.Component {
         </h2>
         
         <p
-          className="black-text text-uppercase font-weight-bold"
+          className="black-text text-uppercase font-weight-bold wow fadeIn"
           align="justify"
         >
           Java Script
         </p>
-        <div className="md-progress">
+        <div className="md-progress wow fadeIn">
           <div
             className="progress-bar"
             role="progressbar"
@@ -34,12 +34,12 @@ class DevelopmentSkills extends React.Component {
           />
         </div>
         <p
-          className="black-text text-uppercase font-weight-bold pt-3"
+          className="black-text text-uppercase font-weight-bold pt-3 wow fadeIn"
           align="justify"
         >
           CSS3
         </p>
-        <div className="md-progress">
+        <div className="md-progress wow fadeIn">
           <div
             className="progress-bar"
             role="progressbar"
@@ -52,12 +52,12 @@ class DevelopmentSkills extends React.Component {
           />
         </div>
         <p
-          className="black-text text-uppercase font-weight-bold pt-3"
+          className="black-text text-uppercase font-weight-bold pt-3 wow fadeIn"
           align="justify"
         >
           HTML5
         </p>
-        <div className="md-progress">
+        <div className="md-progress wow fadeIn">
           <div
             className="progress-bar"
             role="progressbar"
@@ -70,12 +70,12 @@ class DevelopmentSkills extends React.Component {
           />
         </div>
         <p
-          className="black-text text-uppercase font-weight-bold pt-3"
+          className="black-text text-uppercase font-weight-bold pt-3 wow fadeIn"
           align="justify"
         >
           Bootstrap
         </p>
-        <div className="md-progress">
+        <div className="md-progress wow fadeIn">
           <div
             className="progress-bar"
             role="progressbar"
@@ -88,12 +88,12 @@ class DevelopmentSkills extends React.Component {
           />
         </div>
         <p
-          className="black-text text-uppercase font-weight-bold pt-3"
+          className="black-text text-uppercase font-weight-bold pt-3 wow fadeIn"
           align="justify"
         >
           SOLIDITY
         </p>
-        <div className="md-progress">
+        <div className="md-progress wow fadeIn">
           <div
             className="progress-bar"
             role="progressbar"

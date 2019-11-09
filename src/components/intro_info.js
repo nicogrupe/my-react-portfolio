@@ -20,8 +20,8 @@ class IntroInfo extends React.Component {
           <img
             id="img-profile"
             src="./img/profile.jpg"
-            className="img-fluid "
-            alt=""
+            className="img-fluid"
+            alt="profilepic"
           />
         </div>
 

@@ -1,12 +1,10 @@
 import React from "react";
-// import pdf from '../public/pdf/CurriculumVitaeNG.pdf'
+import '../App.scss';
 
 class Navbar extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar top-nav-collapse"
-        // {window.scrollY>100?'navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar top-nav-collapse':'navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar'}
-      >
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar top-nav-collapse">
         <div className="container">
           <a className="navbar-brand" href="#home">
             Nicolás Grupe

@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.scss';
 
 class Streak extends React.Component {
   render() {

@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from "./cards";
+import '../App.scss';
 
 class Works extends React.Component {
   render() {

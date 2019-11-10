@@ -1,5 +1,6 @@
 import React from "react";
 import IntroInfo from "./intro_info";
+import '../App.scss';
 
 class IntroSection extends React.Component {
   render() {

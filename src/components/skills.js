@@ -1,6 +1,7 @@
 import React from "react";
 import MyExperience from "./my_experience";
 import DevelopmentSkills from "./development_skills";
+import '../App.scss';
 
 class Skills extends React.Component {
   render() {

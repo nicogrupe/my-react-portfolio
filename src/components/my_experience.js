@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.scss';
 
 class MyExperience extends React.Component {
   render() {

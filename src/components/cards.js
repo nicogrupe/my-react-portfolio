@@ -5,9 +5,9 @@ class Cards extends React.Component {
     return (
       <div className="col-md-12 mb-5">
         
-        <div id="mdb-lightbox-ui" />
+        <div id="mdb-lightbox-ui"/>
         <div className="mdb-lightbox">
-          <figure className="col-md-4">
+          <figure className="col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
             <a
               href="https://github.com/nicogrupe"
               data-size="1600x1067"
@@ -21,7 +21,7 @@ class Cards extends React.Component {
               />
             </a>
           </figure>
-          <figure className="col-md-4">
+          <figure className="col-md-4 wow fadeIn" data-wow-delay="0.4s">
             <a
               href="http://invertirsemilla.com"
               data-size="1600x1067"
@@ -35,7 +35,7 @@ class Cards extends React.Component {
               />
             </a>
           </figure>
-          <figure className="col-md-4">
+          <figure className="col-md-4 wow fadeInRight" data-wow-delay="0.4s">
             <a
               href="https://github.com/nicogrupe/my-react-portfolio"
               data-size="1600x1067"

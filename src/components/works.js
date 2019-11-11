@@ -7,17 +7,17 @@ class Works extends React.Component {
       <section id="works" className="section mb-5">
         
         <h2
-          className="text-center text-uppercase my-5 pt-5 wow fadeIn"
+          className="text-center text-uppercase my-5 pt-5 wow zoomIn"
           data-wow-delay="0.2s"
         >
           My <strong>projects</strong>
         </h2>
         
-        <p className="text-center w-responsive mx-auto wow fadeIn my-5">
+        <p className="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.4s">
           Some of the porjects I made are Balloon Storage Dapp, invertirsemilla.com and my react portfolio.
-        </p>
+        </p> 
         
-        <div className="row wow fadeIn" data-wow-delay="0.4s">
+        <div className="row">
           
           <Cards></Cards>
           

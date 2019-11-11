@@ -20,13 +20,13 @@ class Contact extends React.Component {
           >
             If you need or want any web service you can contact me and we can discuse about it.{" "}
           </p>
-          <div className="row wow fadeIn" data-wow-delay="0.4s">
+          <div className="row">
             
-            <div className="col-md-6 text-center">
+            <div className="col-md-6 text-center wow fadeInRight" data-wow-delay="0.4s">
               <i className="fas fa-map-marker-alt fa-2x" />
               <p>Córdoba, Córdoba, ARG</p>
             </div>
-            <div className="col-md-6 text-center">
+            <div className="col-md-6 text-center wow fadeInLeft" data-wow-delay="0.4s">
               <i className="fas fa-envelope fa-2x" />
               <p>nico.grupe@gmail.com</p>
             </div>

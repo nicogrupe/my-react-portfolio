@@ -4,19 +4,19 @@ class IntroInfo extends React.Component {
   render() {
     return (
       <div className="white-text text-center pt-5">
-        <h1 className="display-2 mb-4 dark-grey-text wow fadeIn">
+        <h1 className="display-2 mb-4 dark-grey-text wow pulse">
           I am <strong>Nicolás Grupe</strong>
         </h1>
         <h5
-          className="text-uppercase font-weight-bold wow fadeIn"
+          className="text-uppercase font-weight-bold wow fadeInRight"
           data-wow-delay="0.4s"
         >
           <mark>Full stack developer</mark>
         </h5>
 
-        <div className="text-center wow fadeIn" 
+        <div className="text-center wow rollIn" 
           id="img-profile-div"
-          data-wow-delay="0.4s">
+          data-wow-delay="0.6s">
           <img
             id="img-profile"
             src="./img/profile.jpg"

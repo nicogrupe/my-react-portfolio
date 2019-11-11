@@ -6,7 +6,7 @@ class About extends React.Component {
       <section id="about" className="section feature-box mb-5">
         
         <h2
-          className="text-center text-uppercase my-5 pt-5 wow fadeIn"
+          className="text-center text-uppercase my-5 pt-5 wow flipInX"
           data-wow-delay="0.2s"
         >
           About <strong>me</strong>
@@ -22,10 +22,9 @@ class About extends React.Component {
         </p>
         
         <div
-          className="row features-big text-center wow fadeIn"
-          data-wow-delay="0.4s"
+          className="row features-big text-center "
         >
-          <div className="col-md-4 mb-5">
+          <div className="col-md-4 mb-5 wow fadeInLeft" data-wow-delay="0.4s">
             
             <div className="card card-body hoverable">
               <i className="fas fa-laptop fa-3x mb-4" aria-hidden="true" />
@@ -36,7 +35,7 @@ class About extends React.Component {
             </div>
             
           </div>
-          <div className="col-md-4 mb-5">
+          <div className="col-md-4 mb-5 wow fadeIn" data-wow-delay="0.4s">
             
             <div className="card card-body lblue hoverable">
               <i className="fas fa-code fa-3x mb-4" aria-hidden="true" />
@@ -47,7 +46,7 @@ class About extends React.Component {
             </div>
             
           </div>
-          <div className="col-md-4 mb-5">
+          <div className="col-md-4 mb-5 wow fadeInRight" data-wow-delay="0.4s">
           
           <div className="card card-body hoverable">
             <i className="fas fa-pencil-alt fa-3x mb-4" aria-hidden="true" />

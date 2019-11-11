@@ -16,7 +16,7 @@ class IntroInfo extends React.Component {
 
         <div className="text-center wow rollIn" 
           id="img-profile-div"
-          data-wow-delay="0.5s">
+          data-wow-delay="0.6s">
           <img
             id="img-profile"
             src="./img/profile.jpg"

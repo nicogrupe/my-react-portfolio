@@ -47,7 +47,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href={'mailto:nico.grupe@gmail.com?Subject=Requesting CV from your Web Portfolio'} rel="noopener noreferrer" target="_blank" data-offset={100}>
+                <a className="nav-link" href={'mailto:nico.grupe@gmail.com?Subject=Requesting CV from your Web Portfolio'} data-offset={100}>
                   Request Resume (CV)
                 </a>
               </li>

@@ -1914,6 +1914,7 @@ a {
 }
 
 .btn-floating {
+  transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
 }
 
@@ -2170,43 +2171,8 @@ button.bg-light:focus, button.bg-light:hover {
   -webkit-box-orient: horizontal;
 }
 
-@font-face {
-  font-family: Roboto;
-  src: local(Roboto Thin), url(../font/roboto/Roboto-Thin.eot);
-  src: url(../font/roboto/Roboto-Thin.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Thin.woff2) format("woff2"), url(../font/roboto/Roboto-Thin.woff) format("woff"), url(../font/roboto/Roboto-Thin.ttf) format("truetype");
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: local(Roboto Light), url(../font/roboto/Roboto-Light.eot);
-  src: url(../font/roboto/Roboto-Light.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Light.woff2) format("woff2"), url(../font/roboto/Roboto-Light.woff) format("woff"), url(../font/roboto/Roboto-Light.ttf) format("truetype");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: local(Roboto Regular), url(../font/roboto/Roboto-Regular.eot);
-  src: url(../font/roboto/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Regular.woff2) format("woff2"), url(../font/roboto/Roboto-Regular.woff) format("woff"), url(../font/roboto/Roboto-Regular.ttf) format("truetype");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url(../font/roboto/Roboto-Medium.eot);
-  src: url(../font/roboto/Roboto-Medium.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Medium.woff2) format("woff2"), url(../font/roboto/Roboto-Medium.woff) format("woff"), url(../font/roboto/Roboto-Medium.ttf) format("truetype");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url(../font/roboto/Roboto-Bold.eot);
-  src: url(../font/roboto/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Bold.woff2) format("woff2"), url(../font/roboto/Roboto-Bold.woff) format("woff"), url(../font/roboto/Roboto-Bold.ttf) format("truetype");
-  font-weight: 700;
-}
-
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .h1-responsive {
@@ -2623,6 +2589,7 @@ a.text-light:focus, a.text-light:hover {
 .waves-button, .waves-circle {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  mask-image: -webkit-radial-gradient(circle, #fff 100%, #000 100%);
   -webkit-mask-image: -webkit-radial-gradient(circle, #fff 100%, #000 100%);
 }
 
@@ -2693,6 +2660,7 @@ a.text-light:focus, a.text-light:hover {
 }
 
 .waves-float {
+  mask-image: none;
   -webkit-mask-image: none;
   -webkit-box-shadow: 0 1px 1.5px 1px rgba(0, 0, 0, 0.12);
   box-shadow: 0 1px 1.5px 1px rgba(0, 0, 0, 0.12);
@@ -7036,6 +7004,7 @@ a.waves-effect, a.waves-light {
 }
 
 .navbar, .pagination .page-item.active .page-link {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -7580,10 +7549,12 @@ body.scrollable {
 }
 
 .media .media-left img {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .modal-dialog.modal-notify .modal-header {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -9516,12 +9487,14 @@ body.scrollable {
 
 .md-form.md-ver label {
   position: absolute;
+  transition: .2s ease all;
   -webkit-transition: .2s ease all;
   bottom: 0;
 }
 
 .md-form.md-ver label:after {
   position: absolute;
+  transition: .2s ease all;
   -webkit-transition: .2s ease all;
   bottom: 0;
 }
@@ -10304,6 +10277,7 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label {
 }
 
 .btn-fb.focus, .btn-fb:focus {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -10339,6 +10313,7 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label {
 }
 
 .counter, .md-pills .show > .nav-link {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -10440,6 +10415,7 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label {
 }
 
 .btn.aqua-gradient, .btn.peach-gradient {
+  transition: .5s ease;
   -webkit-transition: .5s ease;
   -o-transition: .5s ease;
   color: #fff;
@@ -11510,6 +11486,7 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label {
 }
 
 .md-pills .nav-link.active:hover, .md-tabs {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -12053,10 +12030,12 @@ a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):hover
 }
 
 .card-wrapper .back, .card-wrapper .front {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .pricing-card .price .version {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -14629,6 +14608,7 @@ a.pswp__share--download:hover {
 
 .ps > .ps__scrollbar-x-rail, .ps > .ps__scrollbar-y-rail {
   display: none;
+  transition: background-color 0.2s linear, opacity 0.2s linear;
   -o-transition: background-color 0.2s linear, opacity 0.2s linear;
 }
 
@@ -14663,11 +14643,13 @@ a.pswp__share--download:hover {
 
 .ps > .ps__scrollbar-x-rail > .ps__scrollbar-x {
   position: absolute;
+  transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, -webkit-border-radius 0.2s ease-in-out;
   -webkit-transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, -webkit-border-radius 0.2s ease-in-out;
 }
 
 .ps > .ps__scrollbar-y-rail > .ps__scrollbar-y {
   position: absolute;
+  transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, -webkit-border-radius 0.2s ease-in-out;
   -webkit-transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, -webkit-border-radius 0.2s ease-in-out;
 }
 

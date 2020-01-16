@@ -15,7 +15,7 @@ class About extends React.Component {
           className="text-center w-responsive mx-auto wow fadeIn my-5"
           data-wow-delay="0.2s"
         >
-          I am 23 years old. I am an almost Systems Engineer (I am on my last university year), 
+          I am 23 years old. I am a Systems Engineer with an orientation in computer science, 
           also a web Developer and I enjoy designing. I speek English, Spanish and German. 
           I live in Cordoba, Argentina but I lived in Boston, US for 2 months and in Frankfurt, 
           Germany for 6 months.
